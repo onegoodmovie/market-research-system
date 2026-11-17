@@ -46,11 +46,11 @@
 <line x1="655" y1="440" x2="730" y2="440" stroke="#008A8A" stroke-dasharray="4 5"/>
 <line x1="635" y1="858" x2="730" y2="858" stroke="#008A8A" stroke-dasharray="4 5"/>
 <line x1="635" y1="1110" x2="730" y2="1110" stroke="#008A8A" stroke-dasharray="4 5"/>
-<text x="680" y="1225" class="head">Outputs</text>
-<text x="680" y="1262" class="small">journals</text>
-<text x="680" y="1295" class="small">option-chain</text><text x="680" y="1321" class="small">archive</text>
-<text x="680" y="1354" class="small">volatility</text><text x="680" y="1378" class="small">dashboard</text>
-<text x="680" y="1403" class="small">weekly state</text>
-<text x="680" y="1428" class="small">monitoring report</text>
+<text x="660" y="1225" class="head">Outputs</text>
+<text x="660" y="1262" class="small">journals</text>
+<text x="660" y="1295" class="small">option-chain archive</text>
+<text x="660" y="1328" class="small">volatility dashboard</text>
+<text x="660" y="1361" class="small">weekly state</text>
+<text x="660" y="1394" class="small">monitoring report</text>
 <text x="35" y="1380" class="small">Deployment verified November 16, 2026</text>
 </svg>
