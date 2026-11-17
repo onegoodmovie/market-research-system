@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1440" viewBox="0 0 840 1440" role="img" aria-labelledby="title desc">
+<title id="title">Market Research System — architecture</title>
+<desc id="desc">Three layers, scheduled production on the left, after-close research workstation on the right, and a data sources to outputs flow alongside.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9Z" fill="#008A8A"/></marker></defs>
+<rect width="840" height="1440" fill="#FFFFFF"/>
+<style>text{font-family:Arial,sans-serif;fill:#16324F;font-size:24px}.title{font-size:33px;font-weight:700}.head{font-size:26px;font-weight:700}.small{font-size:20px;fill:#64748B}.box{fill:#F0F5F7;stroke:#CCD8DF;stroke-width:1.5}.flow{fill:none;stroke:#008A8A;stroke-width:3;marker-end:url(#arrow)}</style>
+<text x="35" y="60" class="title">Market Research System</text>
+<text x="35" y="96" class="small">17 scheduled workflows · four research projects</text>
+<rect x="30" y="135" width="345" height="1160" rx="14" fill="#F6FAFA"/>
+<rect x="395" y="135" width="260" height="1160" rx="14" fill="#FAF8F2"/>
+<text x="50" y="176" class="head">Production machine</text>
+<text x="50" y="209" class="small">scheduled, headless</text>
+<text x="415" y="176" class="head">Research</text>
+<text x="415" y="210" class="head">workstation</text>
+<text x="415" y="247" class="small">after-close import</text>
+<text x="415" y="278" class="small">preservation</text>
+<text x="415" y="309" class="small">owner journals</text>
+<line x1="385" y1="135" x2="385" y2="1295" stroke="#D99A2B" stroke-dasharray="6 8"/>
+
+<text x="50" y="375" class="head">Research projects</text>
+<rect x="50" y="400" width="305" height="62" rx="8" class="box"/><text x="75" y="440">Macro Lab</text>
+<rect x="50" y="478" width="305" height="62" rx="8" class="box"/><text x="75" y="518">SPX GEX</text>
+<rect x="50" y="556" width="305" height="62" rx="8" class="box"/><text x="75" y="596">Vol Lab</text>
+<rect x="415" y="400" width="220" height="105" rx="8" class="box"/><text x="435" y="442">NVDA Review</text><text x="435" y="477" class="small">imported data</text>
+<path d="M350 660H465" class="flow"/>
+<text x="255" y="704" class="small">after-close handoff</text>
+
+<rect x="50" y="760" width="585" height="205" rx="10" fill="#E8F3F3" stroke="#008A8A"/>
+<text x="75" y="802" class="head">Shared market services</text>
+<text x="75" y="849">trading calendar</text>
+<text x="75" y="891">event calendar</text>
+<text x="75" y="933">credentials</text>
+<rect x="50" y="1000" width="585" height="250" rx="10" fill="#EDF2F7" stroke="#16324F"/>
+<text x="75" y="1045" class="head">Infrastructure</text>
+<text x="75" y="1095">scheduling · logging</text>
+<text x="75" y="1140">backup · monitoring</text>
+<text x="75" y="1185">alerting</text>
+<path d="M330 990V975" class="flow"/><path d="M330 750V725" class="flow"/>
+
+<text x="685" y="175" class="head">Data</text><text x="685" y="210" class="head">sources</text>
+<text x="685" y="255" class="small">Yahoo Finance</text>
+<text x="685" y="292" class="small">Massive</text>
+<text x="685" y="329" class="small">U.S. Treasury</text>
+<text x="685" y="366" class="small">FRED</text>
+<path d="M740 400V1175" class="flow"/>
+<line x1="655" y1="440" x2="730" y2="440" stroke="#008A8A" stroke-dasharray="4 5"/>
+<line x1="635" y1="858" x2="730" y2="858" stroke="#008A8A" stroke-dasharray="4 5"/>
+<line x1="635" y1="1110" x2="730" y2="1110" stroke="#008A8A" stroke-dasharray="4 5"/>
+<text x="680" y="1225" class="head">Outputs</text>
+<text x="680" y="1262" class="small">journals</text>
+<text x="680" y="1295" class="small">option-chain</text><text x="680" y="1321" class="small">archive</text>
+<text x="680" y="1354" class="small">volatility</text><text x="680" y="1378" class="small">dashboard</text>
+<text x="680" y="1403" class="small">weekly state</text>
+<text x="680" y="1428" class="small">monitoring report</text>
+<text x="35" y="1345" class="small">Daily production → after-close research</text>
+<text x="35" y="1380" class="small">Deployment verified November 16, 2026</text>
+</svg>
