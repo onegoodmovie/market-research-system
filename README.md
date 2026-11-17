@@ -12,9 +12,7 @@ A personal market research system that runs every trading day: 17 scheduled work
 
 **Shared market services** provide the trading calendar, event calendar and credential access.
 
-**Research projects** turn market data into journals, an option-chain archive, a volatility dashboard and a weekly market state.
-
-Macro Lab, SPX GEX and Vol Lab run on schedule; NVDA Review runs after the close on the research workstation from the imported data.
+**Research projects** turn market data into journals, an option-chain archive, a volatility dashboard and a weekly market state: Macro Lab, SPX GEX and Vol Lab run on schedule; NVDA Review runs after the close on the research workstation from the imported data.
 
 Volatility master: 220 daily observations × 275 fields across NVDA and SPX, June 8 – November 16, 2026.
 

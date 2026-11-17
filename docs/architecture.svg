@@ -5,7 +5,7 @@
 <rect width="840" height="1440" fill="#FFFFFF"/>
 <style>text{font-family:Arial,sans-serif;fill:#16324F;font-size:24px}.title{font-size:33px;font-weight:700}.head{font-size:26px;font-weight:700}.small{font-size:20px;fill:#64748B}.box{fill:#F0F5F7;stroke:#CCD8DF;stroke-width:1.5}.flow{fill:none;stroke:#008A8A;stroke-width:3;marker-end:url(#arrow)}</style>
 <text x="35" y="60" class="title">Market Research System</text>
-<text x="35" y="96" class="small">17 scheduled workflows · four research projects</text>
+<text x="35" y="96" class="small">Daily production → after-close research</text>
 <rect x="30" y="135" width="345" height="1160" rx="14" fill="#F6FAFA"/>
 <rect x="395" y="135" width="260" height="1160" rx="14" fill="#FAF8F2"/>
 <text x="50" y="176" class="head">Production machine</text>
@@ -52,6 +52,5 @@
 <text x="680" y="1354" class="small">volatility</text><text x="680" y="1378" class="small">dashboard</text>
 <text x="680" y="1403" class="small">weekly state</text>
 <text x="680" y="1428" class="small">monitoring report</text>
-<text x="35" y="1345" class="small">Daily production → after-close research</text>
 <text x="35" y="1380" class="small">Deployment verified November 16, 2026</text>
 </svg>
