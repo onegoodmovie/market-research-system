@@ -20,4 +20,4 @@ An end-of-day orchestrator produces an authoritative monitoring report (on Novem
 
 Real output samples, dated November 16, 2026: [NVDA Auto Snapshot excerpt](samples/nvda-auto-snapshot-2026-11-16.png) · [sanitized monitoring report](samples/watchdog-2026-11-16.md) · [report preview](samples/watchdog-2026-11-16.png).
 
-Research writing: [Portfolio — entry 2, Market Research Writing](https://www.notion.so/41831be4dfe681358dc2f761b9096036).
+Research writing: [Market Research Writing](https://app.notion.com/p/41b31be4dfe681e58c5bdb61cd5440f6?pvs=204).
